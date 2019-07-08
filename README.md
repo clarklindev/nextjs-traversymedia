@@ -7,7 +7,7 @@
 - styled JSX (built in css support)
 - hot reload functionality
 - easy deployment
-- Link module '<Link href="path">' wrapper of '<a>' or '<button>' DOM element
+- Link module '<Link href="path">' wrapper of '<a>' or '<button>' DOM element, the styling goes on the DOM element.
 
 ## installation
 
