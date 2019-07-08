@@ -52,7 +52,14 @@ var Layout = function Layout(props) {
       lineNumber: 14
     },
     __self: this
-  }), props.children);
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, props.children));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -60,4 +67,4 @@ var Layout = function Layout(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.376a886ee85e8bcfe5ae.hot-update.js.map
+//# sourceMappingURL=index.js.ed73fcb2b4d647bf55ca.hot-update.js.map
