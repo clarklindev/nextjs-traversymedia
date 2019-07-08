@@ -10,11 +10,15 @@
 - hot reload functionality
 - easy deployment
 - Link module '<Link href="path">' wrapper of '<a>' or '<button>' DOM element, the styling goes on the DOM element.
+- to use Link: import Link from 'next/link';
+- to use styling inside component `<style jsx>{put css here}</style>`
+- create Layout.js and import Head from 'next/head';
+- anything put in the `<Head></Head>` will go in the head
 
 ## installation
 
 ```
-npm init
+npm init (creates package.json)
 npm install next react react-dom
 ```
 
@@ -37,3 +41,12 @@ npm install next react react-dom
 // pages/index.js
 export default () => <div>Hello World</div>;
 ```
+
+## start the app
+
+```
+npm run dev
+```
+
+- this starts the server and opens up the output in the browser
+- index.js is the root so you will access it via localhost:3000
