@@ -1,5 +1,41 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\about.js"],{
 
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Navigation_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navigation/Navbar */ "./components/Navigation/Navbar.js");
+var _jsxFileName = "C:\\Users\\clarklindeveloper\\Documents\\code\\nextjs\\traversymedia\\components\\Layout.js";
+
+
+
+var Layout = function Layout(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navigation_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }), props.children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
 /***/ "./components/Navigation/Navbar.js":
 /*!*****************************************!*\
   !*** ./components/Navigation/Navbar.js ***!
@@ -10694,25 +10730,25 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Navigation_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navigation/Navbar */ "./components/Navigation/Navbar.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 var _jsxFileName = "C:\\Users\\clarklindeveloper\\Documents\\code\\nextjs\\traversymedia\\pages\\about.js";
 
 
 
 var About = function About() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navigation_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -10724,14 +10760,14 @@ var About = function About() {
       lineNumber: 6
     },
     __self: this
-  }, "App to view bitcoin prices"));
+  }, "App to view bitcoin prices")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cclarklindeveloper%5CDocuments%5Ccode%5Cnextjs%5Ctraversymedia%5Cpages%5Cabout.js ***!
   \*********************************************************************************************************************************************************************/
@@ -10754,5 +10790,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map
