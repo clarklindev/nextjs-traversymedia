@@ -4,6 +4,12 @@ https://www.youtube.com/watch?v=IkOVe40Sy0U
 
 ## what this project will do:
 
-- send out api request
+- send out api request using fetch()
 - get bitcoin data
-- render
+- display some data
+
+## features
+
+- routing
+- link module
+- layouts
