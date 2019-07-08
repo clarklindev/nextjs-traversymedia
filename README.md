@@ -1,1 +1,1 @@
-# nextjs-traversymedia
+# nextjs
